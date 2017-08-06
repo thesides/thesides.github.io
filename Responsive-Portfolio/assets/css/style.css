@@ -1,0 +1,648 @@
+<style>
+	/**Bio Page CSS**/
+
+
+
+	body {
+		width: 960px;
+		height: 100%;
+
+	}
+
+	.header {
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		width: 100%;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		margin-bottom: 40px;
+		padding-bottom: 0px;
+		background: #ffffff;
+		border-color: #cccccc;
+	}
+
+	.name {
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		background-color: #20B2AA;
+		color: white;
+		margin-left: 160px;
+		width: 20%;
+		float: left;
+		padding: 5px;
+		text-align: center;
+		margin-top: 0px;
+	}
+
+	.tabs {
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		float: right;
+		width: 500px;
+		height: 50px;
+		position: absolute;
+		right: 194px;
+		top: 20px;
+		text-decoration: none;
+		
+	}
+
+	.about {
+		float: right;
+		padding-left: 15px;
+		margin-bottom: 10px;
+		text-decoration: none;
+			
+	}
+
+	.portfolio {
+		float: right;
+		padding-right: 15px;
+		padding-left: 15px;
+		border-right: 1px solid #dddddd;
+		margin-bottom: 10px;
+		text-decoration: none;
+	}
+
+	.contact {
+		float: right;
+		padding-right: 15px;
+		border-right: 1px solid #dddddd;
+		margin-bottom: 10px;
+		text-decoration: none;
+		
+	}
+
+	.background {
+		background-image: url("../images/background.png");
+		clear: both;
+		padding: 60px;
+		overflow-y: auto;
+		margin-top: 89px;
+
+	}
+
+	.biotitle{
+		border-bottom: 2px solid #dddddd;
+		padding-bottom: 30px;
+	}
+
+	.bio-image {
+		width: 300px;
+		height: 200px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		border: 2px groove #777777;
+	}
+
+	
+
+	.aboutme {
+		width: 650px;
+		float: left;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-bottom: 30px;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		color: #20B2AA;
+		background: #ffffff;
+		overflow: auto;
+		border: 2px groove #dddddd;
+		margin-left: 100px;
+	}
+
+	.para {
+		line-height: 20px;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		color: #777777;
+	}
+
+	.connectwithme {
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		color: #20B2AA;
+		float: right;
+		width: 270px;
+		background: #ffffff;
+		text-align: center;
+		position: relative;
+		left: -100px;
+		overflow: auto;
+		border: 2px groove #dddddd;
+		height: 180px;
+	}
+
+	.connect {
+		border-bottom: 2px solid #dddddd;
+		width: 75%;
+		position: absolute;
+		left: 40px;
+	}
+
+	.icons {
+		
+		padding: 88px;
+		position: relative;
+		right: 14px;
+	}
+
+	.linkedin {
+		width: 40px;
+		height: 40px;
+		float: right;
+		margin: 10px;
+		position: absolute;
+		left: 32px;
+		top: 34px;
+		margin-right: 10px;
+	}
+
+	.github {
+		width: 40px;
+		height: 40px;
+		float: right;
+		margin: 10px;
+		position: absolute;
+		left: 59px;
+		top: 34px;
+		margin-right: 10px;
+	}
+
+	.stackoverflow {
+		width: 37px;
+		height: 37px;
+		float: right;
+		margin: 10px;
+		position: absolute;
+		left: 85px;
+		top: 35px;
+	}
+
+
+		
+	footer {
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		color: white;
+		text-align: center;
+		background: #666666;
+		margin: 0px;
+		padding: 20px;
+		border-top: 5px groove #20B2AA;
+		clear: both;
+	}
+
+	/**Start of Portfolio Page CSS*/
+
+
+.game1 {
+	
+		height: 250px;
+		width: 291px;
+		float: left;
+}
+
+
+
+	.hangman {
+		border: 2px groove #20B2AA;
+		height: inherit;
+		width: inherit;
+		float: left;
+		z-index: -1;
+	}
+
+	.hangmanlabel {
+
+	height: 44px;
+    width: inherit;
+    position: relative;
+    top: -65px;
+    z-index: 1;
+    background: #20B2AA;
+    color: white;
+    text-align: center;
+    margin-right: -43px;
+    float: left;
+    padding-bottom: 10px;
+		/**Pseudo Code Note: Plan on using the z-index property to 
+		create labels that are layered on top of the parent element 
+		(aka the game image). I know that z-index only works when the 
+		parent div is floated. I know that using the position property
+		I can manouver (is that how you spell manouver? I dunno but I digress)
+		the label to where I need it on its parent div.
+
+		This same process will be repeated for all 5 game sections.**/
+	}
+
+
+.game2 {
+	
+		height: 250px;
+		width: 291px;
+		float: right;
+}
+			.RPGGame {
+				border: 2px groove #20B2AA;
+				height: inherit;
+				width: inherit;
+				
+			}
+				
+				.RPGlabel {
+
+					height: 44px;
+				    width: inherit;
+				    position: relative;
+				    top: -70px;
+				    right: -4px;
+				    padding-bottom: 10px;
+				    z-index: 1;
+				    background: #20B2AA;
+				    color: white;
+				    text-align: center;
+				    /*clear: both;*/
+				    float: right;
+				    
+				    
+				}
+
+.game3 {
+	
+		height: 250px;
+		width: 291px;
+		float: left;
+		margin-top: 30px;
+}
+
+
+	.TriviaGame {
+		border: 2px groove #20B2AA;
+	    height: inherit;
+	    width: inherit;
+	    position: relative;
+	    clear: both;
+	}
+
+				.trivialabel {
+
+					height: 44px;
+				    width: inherit;
+				    position: relative;
+				    top: -70px;
+				    
+				    z-index: 1;
+				    background: #20B2AA;
+				    color: white;
+				    text-align: center;
+				    padding-bottom: 10px;
+				    margin-right: -43px;
+				    float: left;
+				}
+
+
+.game4 {
+	
+		height: 250px;
+		width: 291px;
+		float: right;
+		margin-top: 30px;
+}
+			.Rutgers {
+				border: 2px groove #20B2AA;
+				height: inherit;
+				width: inherit;
+					
+			}
+
+				.rutgerslabel {
+
+					height: 44px;
+				    width: inherit;
+				    position: relative;
+				    top: -70px;
+				    right: -4px;
+				    padding-bottom: 10px;
+				    z-index: 1;
+				    background: #20B2AA;
+				    color: white;
+				    text-align: center;
+				    /*clear: both;*/
+				    float: right;
+				}
+
+.game5 {
+	
+		height: 250px;
+		width: 291px;
+		float: left;
+		margin-top: 30px;
+		margin-bottom: 3px;
+}
+
+	.rockpaper {
+		border: 2px groove #20B2AA;
+		height: inherit;
+		width: inherit;
+		float: left;
+		margin-bottom: 30px;
+	}
+
+		.rockpaperlabel {
+
+					height: 44px;
+				    width: inherit;
+				    position: relative;
+				    top: -96px;
+				    
+				    z-index: 1;
+				    background: #20B2AA;
+				    color: white;
+				    text-align: center;
+				    padding-bottom: 10px;
+				    margin-right: -43px;
+				    float: left;
+				    clear: both;
+				}
+	
+	.clear {
+		clear: both;
+	}
+
+	.submit {
+		background: #20B2AA;
+		height: 40px;
+		width: 150px;
+		color: white;
+		margin-top: 30px;
+		font: 20px Georgia;
+	}
+
+	.message {
+		width: 650px;
+	}
+
+	.nameinput {
+		width: 650px;
+
+	}
+
+	.emailinput {
+		width: 650px;
+
+	}
+
+	h2 {
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		color: #20B2AA;
+		font-size: 30px;
+	}
+	
+	a:link {
+    	text-decoration: none;
+	}
+
+	a:visited {
+    	text-decoration: none;
+	}
+
+	a:hover {
+    	text-decoration: underline;
+    	color: red;
+	}   
+
+	@media screen and (max-width: 980px){
+
+		.aboutme {
+			width: 300px;
+			margin-left: 55px;
+		}
+
+		.name {
+			width: 28%;
+    		margin-left: 122px;
+    		font-size: 15px;
+    		padding: 7px;
+		}
+
+		.tabs {
+			right: 145px;
+
+		}
+
+		.connectwithme {
+			margin-right: -40px;
+		}
+
+		.game2 {
+			margin-top: 30px;
+			margin-right: 9px;
+		}
+
+		.game4 {
+			margin-right: 9px;
+		}
+
+		.message {
+			width: 100%;
+			border: 1px solid #dddddd;
+			overflow: hidden;
+		}
+
+		.nameinput {
+			width: 100%;
+			border: 1px solid #dddddd;
+			overflow: hidden;
+		}
+
+		.emailinput {
+
+			width: 100%;
+			border: 1px solid #dddddd;
+			overflow: hidden;
+		
+		}
+
+
+	}
+
+	@media screen and (max-width: 768px){
+
+		.aboutme {
+			width: 675px;
+    		margin-left: 15px;
+    		padding-left: 15px;
+		}
+
+		.bioimage {
+			width: 200px;
+			height: 100px;
+
+		}
+
+		.connectwithme {
+			width: 721px;
+		    left: 67px;
+		   
+		    margin-right: 19px;
+		    text-align: left;
+		    margin-top: 33px;
+		}
+
+		.icons {
+			right: 45px;
+		}
+
+		.connect {
+			left: 32px;
+			width: 92%;
+		}
+		
+		.tabs {
+				right: 28px;
+				top: 21px;
+		}
+
+		.name {
+			font-size: 11px;
+		    margin-top: 0px;
+		    margin-left: 8px;
+		    height: 70px;
+		    width: 218px;
+		    padding-top: 19px;
+		}
+
+		.header {
+			margin-bottom: 0px;
+		}
+
+		.background {
+			padding-left: 0px;
+			padding-top: 50px;
+		}
+
+		.game1 {
+			height: 250px;
+			width: 300px;
+		}
+
+		.game2 {
+			height: 250px;
+			width: 300px;
+			margin-top: 0px;
+		}
+
+		.game3 {
+			height: 250px;
+			width: 300px;
+		}
+
+		.game4 {
+			height: 250px;
+			width: 300px;
+		}
+
+		.game5 {
+			height: 250px;
+			width: 300px;
+		}
+
+
+	}
+
+	@media screen and (max-width: 640px){
+
+		.aboutme {
+			width: 545px;
+    		margin-left: 15px;
+    		padding-left: 15px;
+		}
+
+		.bioimage {
+			width: 500px;
+			height: 100px;
+			margin-right: 20px;
+
+		}
+
+		.connectwithme {
+			width: 590px;
+		    left: -5px;
+		   
+		    margin-right: 10px;
+		    text-align: left;
+		    margin-top: 33px;
+		    margin-bottom: 30px;
+		}
+
+		.icons {
+			right: 45px;
+		}
+
+		.connect {
+			left: 32px;
+		}
+		
+		.tabs {
+				right: 90px;
+    			top: -5px;
+			    position: relative;
+			    width: 100%;
+		}
+			.about {
+				margin: 20px;
+
+			}
+
+			.portfolio {
+				margin: 20px;
+				padding-right: 55px;
+			}
+
+			.contact {
+				margin: 20px;
+				padding-right: 55px;
+
+			}
+
+			h4 {
+				padding: 2px;
+				margin: 0px;
+			}
+
+		.name {
+			width: 100%;
+			margin-left: 0px;
+		}
+
+		.background {
+			padding: 0px;
+			padding-top: 70px;
+		}
+
+		.game1 {
+			height: 200px;
+			width: 250px;
+		}
+
+		.game2 {
+			height: 200px;
+			width: 250px;
+			margin-top: 0px;
+		}
+
+		.game3 {
+			height: 200px;
+			width: 250px;
+		}
+
+		.game4 {
+			height: 200px;
+			width: 250px;
+		}
+
+		.game5 {
+			height: 200px;
+			width: 250px;
+		}
+
+		
+		
+	}
+</style>
